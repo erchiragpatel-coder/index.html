@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>સીમંત સંસ્કાર આમંત્રણ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Laila:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #D4AF37;
+            --deep-red: #8B0000;
+            --soft-pink: #FFF0F5;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Laila', sans-serif;
+            background-color: var(--soft-pink);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: var(--text-color);
+        }
+
+        .container {
+            background: white;
+            max-width: 500px;
+            width: 90%;
+            margin: 20px;
+            padding: 40px;
+            border: 8px double var(--gold);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            position: relative;
+        }
+
+        .header-icons {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .header-icons img {
+            width: 60px;
+            height: auto;
+        }
+
+        h1 {
+            color: var(--deep-red);
+            font-size: 2.5em;
+            margin: 10px 0;
+        }
+
+        h2 {
+            color: var(--gold);
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .names {
+            background: #fdf5e6;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid var(--gold);
+        }
+
+        .couple-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #4a4a4a;
+        }
+
+        .details-box {
+            margin-top: 30px;
+            line-height: 1.8;
+        }
+
+        .event-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .event-card {
+            background: #fffafa;
+            padding: 15px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+        }
+
+        .btn-map {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background-color: var(--deep-red);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn-map:hover {
+            background-color: var(--gold);
+        }
+
+        .footer-note {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header-icons">
+        <span>॥ શ્રી ગણેશાય નમઃ ॥</span>
+        <span>॥ શ્રી મહાકાળી માતાય નમઃ ॥</span>
+    </div>
+
+    <h1>આમંત્રણ</h1>
+    <h2>સીમંત સંસ્કાર</h2>
+
+    <p>સ્નેહીશ્રી,</p>
+    <p>સહર્ષ જણાવવાનું કે શ્રી મહાકાળી માતાજીની અસીમ કૃપાથી <br> 
+    <strong>ગં.સ્વ. વૈશાલીબેન તથા સ્વ. અખિલેશભાઈ પંચાલ</strong> ના સુપુત્ર</p>
+
+    <div class="names">
+        <div class="couple-name">ચિ. સત્યેન ના ધર્મપત્ની</div>
+        <div class="couple-name" style="color: var(--deep-red); font-size: 1.8em;">અ.સૌ. માર્ગી</div>
+    </div>
+
+    <p>ના સીમંત વિધી સવંત ૨૦૮૨ ના ફાગણ સુદ-૫ ને રવિવાર <br>
+    <strong>તા. ૨૨-૦૨-૨૦૨૬</strong> ના શુભદિને રાખેલ છે.</p>
+
+    <div class="event-grid">
+        <div class="event-card">
+            <strong>॥ સીમંતવિધી ॥</strong><br>
+            સવારે ૧૦:૩૦ કલાકે
+        </div>
+        <div class="event-card">
+            <strong>॥ ભોજન સમારંભ ॥</strong><br>
+            બપોરે ૧૨:૦૦ થી...
+        </div>
+    </div>
+
+    <div class="details-box">
+        <strong>॥ શુભ સ્થળ ॥</strong><br>
+        બંસી કાઠીયાવાડી હોટલ, આબુ હાઇવે, પાલનપુર<br>
+        <a href="https://www.google.com/maps/search/Bansi+Kathiyawadi+Hotel+Palanpur" target="_blank" class="btn-map">📍 Google Map પર જુઓ</a>
+    </div>
+
+    <div class="footer-note">
+        <strong>॥ નિમંત્રક ॥</strong><br>
+        પંચાલ પરિવાર
+    </div>
+</div>
+
+</body>
+</html>
